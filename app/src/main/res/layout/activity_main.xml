@@ -1,0 +1,45 @@
+<LinearLayout
+    android:layout_marginRight="8dp"
+    android:layout_marginLeft="8dp"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <!-- EMAIL: -->
+    <TextView
+        android:id="@+id/main_email_txtview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EMAIL:" />
+
+    <EditText
+        android:id="@+id/main_email_editxt"
+        android:hint="ENTRE COM SEU EMAIL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"/>
+
+    <!-- SENHA -->
+    <TextView
+        android:id="@+id/main_senha_txtview"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SENHA:"/>
+
+    <EditText
+        android:id="@+id/main_senha_edittxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:id="@+id/main_botao_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CLIQUE AQUI"/>
+
+
+</LinearLayout>
